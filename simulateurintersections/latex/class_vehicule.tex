@@ -1,0 +1,114 @@
+\section{\-Vehicule \-Class \-Reference}
+\label{class_vehicule}\index{\-Vehicule@{\-Vehicule}}
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bf \-Action\-Conducteur}
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Types}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries \-Type\-Action\-Conducteur} \{ {\bfseries \-A\-C\-C\-E\-L\-E\-R\-E\-R}, 
+{\bfseries \-F\-R\-E\-I\-N\-E\-R}, 
+{\bfseries \-T\-O\-U\-R\-N\-E\-R}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries \-Vehicule} (const \-Q\-String \&nom, {\bf \-Type\-Vehicule} $\ast$type=0)\label{class_vehicule_a3fe6a9ec4c5e817844b915ab86e0c753}
+
+\item 
+void {\bfseries set\-Acceleration} (const {\bf \-Point} \&valeur)\label{class_vehicule_ae65e3ac798f73e9c2d6df7a5ee935f1d}
+
+\item 
+{\bf \-Point} {\bfseries acceleration} ()\label{class_vehicule_ac5b1437932070a5674afb7f6b6c9360f}
+
+\item 
+void {\bfseries set\-Direction} (const qreal angle)\label{class_vehicule_abb4d88b85a29c8213a6de37f8c0fdfef}
+
+\item 
+void {\bfseries set\-Direction} (const {\bf \-Point} \&valeur)\label{class_vehicule_ab2460a74ebd3126834e9d28887b4b10f}
+
+\item 
+{\bf \-Point} {\bfseries direction} ()\label{class_vehicule_ae4113daad8e1bf31c93cee889ba7fc1c}
+
+\item 
+qreal {\bfseries distance\-Jusqua\-Vitesse} (const qreal speed\-M\-P\-H=0.\-0)\label{class_vehicule_afcf16212edd9c14764e9f17f92628543}
+
+\item 
+void {\bfseries set\-Emplacement} (const {\bf \-Point} \&valeur)\label{class_vehicule_a943bedfb30a165aa53990f2a53923e74}
+
+\item 
+{\bf \-Point} {\bfseries emplacement} ()\label{class_vehicule_ae8196e4c14907ffa20fcab69090655aa}
+
+\item 
+void {\bfseries set\-Empattement} (const qreal valeur)\label{class_vehicule_ad94493a406fcfe5edb479268eee270b2}
+
+\item 
+qreal {\bfseries empattement} ()\label{class_vehicule_ab034d5cf3d55dbf628724f852ae5bb16}
+
+\item 
+void {\bfseries forces} ({\bf \-Point} \&engine, {\bf \-Point} \&frottements)\label{class_vehicule_af8f6e75a3b943dacff5e9aa53d82b07e}
+
+\item 
+void {\bfseries set\-Force\-Moteur} (const qreal valeur)\label{class_vehicule_a72d2d22eadf542fbdabce73352328010}
+
+\item 
+void {\bfseries set\-Masse} (const qreal valeur)\label{class_vehicule_a69f0463cca0089567b1161235e4e85ff}
+
+\item 
+\-Q\-String {\bfseries nom} ()\label{class_vehicule_af9226329f384b6968b031c3f1b143403}
+
+\item 
+{\bf \-Type\-Vehicule} $\ast$ {\bfseries type} ()\label{class_vehicule_a1342b8a4a89da5616bf9bb56780d5147}
+
+\item 
+void {\bfseries set\-Type} ({\bf \-Type\-Vehicule} $\ast$type)\label{class_vehicule_a307d338f156209233b2cb34a1bda7317}
+
+\item 
+void {\bfseries set\-Velocite} (const {\bf \-Point} \&valeur)\label{class_vehicule_aac6c268c42aab424ead7aef118641943}
+
+\item 
+{\bf \-Point} {\bfseries velocite} ()\label{class_vehicule_a60cc923c59c9eec2e0096f9c4ccb0d82}
+
+\item 
+qreal {\bfseries vitesse} (bool in\-M\-P\-H=false)\label{class_vehicule_acc821135dd281512840e1e9974a0b3fa}
+
+\item 
+qreal {\bfseries tps\-Jusqua\-Vitesse} (const qreal speed\-M\-P\-H=0.\-0)\label{class_vehicule_afdd76337ce8dfa8149f0296614d2b52f}
+
+\item 
+{\bf \-Conducteur} $\ast$ {\bfseries conducteur} ()\label{class_vehicule_add552335ade385f1a8b524a86669070b}
+
+\item 
+void {\bfseries set\-Conducteur} ({\bf \-Conducteur} $\ast$d)\label{class_vehicule_a75c03ea37c82e8ff34a688d1817d3274}
+
+\item 
+void {\bf accelerer} (qreal valeur)
+\item 
+void {\bfseries avancer} ()\label{class_vehicule_a5a24b2c7dcb0b78849d68cdc4a0e6d96}
+
+\item 
+void {\bfseries freiner} (qreal valeur)\label{class_vehicule_a40715f472879f1213ebdc42821bd2e0e}
+
+\item 
+void {\bfseries tournervolant} (qreal valeur)\label{class_vehicule_a67a2540703ce398a9c6fbc9b69a7521a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Vehicule@{\-Vehicule}!accelerer@{accelerer}}
+\index{accelerer@{accelerer}!Vehicule@{\-Vehicule}}
+\subsubsection[{accelerer}]{\setlength{\rightskip}{0pt plus 5cm}void \-Vehicule\-::accelerer (
+\begin{DoxyParamCaption}
+\item[{qreal}]{valeur}
+\end{DoxyParamCaption}
+)}\label{class_vehicule_a18ebfc2b0f22fe3105b19edbc4585b8a}
+0 = pas d'accélération, 1 = accélérateur complètement appuyé 
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+main/vehicule.\-h\item 
+main/vehicule.\-cpp\end{DoxyCompactItemize}

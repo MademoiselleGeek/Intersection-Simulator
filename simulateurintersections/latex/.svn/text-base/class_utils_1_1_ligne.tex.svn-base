@@ -1,0 +1,73 @@
+\section{\-Utils\-:\-:\-Ligne \-Class \-Reference}
+\label{class_utils_1_1_ligne}\index{\-Utils\-::\-Ligne@{\-Utils\-::\-Ligne}}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-Ligne} (const {\bf \-Utils\-::\-Point} \&p1, const {\bf \-Utils\-::\-Point} \&p2)
+\item 
+{\bfseries \-Ligne} (qreal y\-Intercept, qreal pente)\label{class_utils_1_1_ligne_a6748d868fed3e4a4bce5d7496315d2a0}
+
+\item 
+qreal {\bfseries y\-Intercept} () const \label{class_utils_1_1_ligne_ad58478b51a3eafb9ada2f0eb505390ed}
+
+\item 
+qreal {\bfseries x\-Intercept} () const \label{class_utils_1_1_ligne_a1da966043dc25fd15b51133b288cd7b6}
+
+\item 
+qreal {\bfseries pente} () const \label{class_utils_1_1_ligne_a62ef2b27b83c852ee156f3fc5ca4028d}
+
+\item 
+bool {\bfseries est\-Vertical} () const \label{class_utils_1_1_ligne_a23de7e0baa94812715104dd69d55758d}
+
+\item 
+bool {\bfseries est\-Horizontal} () const \label{class_utils_1_1_ligne_a0b2784aaaf262411a631b1fbe6baa8e9}
+
+\item 
+virtual bool {\bfseries est\-Sur} (const {\bf \-Point} \&p) const \label{class_utils_1_1_ligne_a5196eda03c202efa8b6b49f016e1f8a5}
+
+\item 
+virtual bool {\bfseries operator==} (const {\bf \-Ligne} \&l) const \label{class_utils_1_1_ligne_ab83d839a50a02db516a956b769e08573}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+qreal {\bfseries m\-\_\-\-Y\-Intercept}\label{class_utils_1_1_ligne_a248af41b76bee2388408becdf5a53561}
+
+\item 
+qreal {\bfseries m\-\_\-\-X\-Intercept}\label{class_utils_1_1_ligne_ac0e1c20e6963df19201261b35e552e02}
+
+\item 
+qreal {\bfseries m\-\_\-\-Pente}\label{class_utils_1_1_ligne_a15f655527121caec9b499907cac4ad82}
+
+\item 
+bool {\bfseries m\-\_\-\-Est\-Vertical}\label{class_utils_1_1_ligne_a3a87b9ca6fee27ad6e67610e79e933de}
+
+\item 
+bool {\bfseries m\-\_\-\-Est\-Horizontal}\label{class_utils_1_1_ligne_a18326c39b2241b58c48ddf3361eeeeee}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\index{\-Utils\-::\-Ligne@{\-Utils\-::\-Ligne}!\-Ligne@{\-Ligne}}
+\index{\-Ligne@{\-Ligne}!Utils::Ligne@{\-Utils\-::\-Ligne}}
+\subsubsection[{\-Ligne}]{\setlength{\rightskip}{0pt plus 5cm}\-Utils\-::\-Ligne\-::\-Ligne (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Utils\-::\-Point} \&}]{p1, }
+\item[{const {\bf \-Utils\-::\-Point} \&}]{p2}
+\end{DoxyParamCaption}
+)}\label{class_utils_1_1_ligne_a5920099aedc44ac6873d647befb18332}
+\-Constructeur \-Set verticalité, horizontalité et pente de la ligne 
+\begin{DoxyParams}{\-Parameters}
+{\em p1} & \-Premier point \\
+\hline
+{\em p2} & \-Deuxième point \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+utils/ligne.\-h\item 
+utils/ligne.\-cpp\end{DoxyCompactItemize}

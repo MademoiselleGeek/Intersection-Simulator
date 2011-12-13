@@ -1,0 +1,116 @@
+\section{\-Plan \-Class \-Reference}
+\label{class_plan}\index{\-Plan@{\-Plan}}
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bf \-Intersection}
+\item 
+class {\bf \-Route}
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \-Q\-List$<$ {\bf \-Route} $\ast$ $>$ {\bfseries \-Liste\-Routes}\label{class_plan_a1219d5cfd0460127543b31a9f8cd883b}
+
+\item 
+typedef \-Q\-List$<$ {\bf \-Intersection} $\ast$ $>$ {\bfseries \-Liste\-Intersections}\label{class_plan_adbba4db4e6ffcb3a1bb58cd514013d26}
+
+\item 
+typedef \-Q\-Map$<$ \-Q\-String, \*
+{\bf \-Intersection} $\ast$ $>$ {\bfseries \-Dictionnaire\-Intersections}\label{class_plan_ad8a29738379c4af9a514afca11acc45f}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries \-Plan} (const \-Q\-String \&nom\-Fichier)\label{class_plan_a97394ca7b7878005e87c01c3c59ef2c1}
+
+\item 
+const {\bf \-Intersection} $\ast$ {\bfseries get\-Intersection} (const {\bf \-Utils\-::\-Point} \&point) const \label{class_plan_ad326c9ea3560e6d6135c51100fe924d2}
+
+\item 
+{\bf \-Intersection} $\ast$ {\bfseries get\-Intersection} (const {\bf \-Utils\-::\-Point} \&point)\label{class_plan_aee581ebdedac74118792f8a593e5cb89}
+
+\item 
+const {\bf \-Intersection} $\ast$ {\bfseries get\-Intersection} (const {\bf \-Intersection} $\ast$intersection\-Precedente, const {\bf \-Route} $\ast$route\-Actuelle) const \label{class_plan_aefa49b72e7d59110f8d0d638c855f37d}
+
+\item 
+const {\bf \-Intersection} $\ast$ {\bfseries get\-Intersection} (const \-Q\-String \&nom) const \label{class_plan_a7b55b370558041d9d70dcd4e6fa1d927}
+
+\item 
+\-Liste\-Intersections {\bfseries get\-Intersections} () const \label{class_plan_a4e382f1f659cc2da0d9ad514d7d2f8d0}
+
+\item 
+void {\bfseries creer\-Trous\-Intersection} ()\label{class_plan_a614e21e5a438485920a013bd20d0bebb}
+
+\item 
+const {\bf \-Route} $\ast$ {\bfseries get\-Route} (const {\bf \-Intersection} $\ast$intersection1, const {\bf \-Intersection} $\ast$intersection2) const \label{class_plan_acf9faee08a87e7f0cf44fb4db964aca9}
+
+\item 
+const {\bf \-Route} $\ast$ {\bf get\-Route} (const {\bf \-Utils\-::\-Point} \&point) const 
+\item 
+const {\bf \-Route} $\ast$ {\bfseries get\-Route} (const \-Q\-String \&nom) const \label{class_plan_a8081faccfd1e85b648d4e50e11149ca1}
+
+\item 
+\-Liste\-Routes {\bf get\-Routes} () const 
+\item 
+\-Liste\-Routes {\bf get\-Routes} (const {\bf \-Intersection} $\ast$intersection) const 
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Liste\-Routes {\bfseries m\-\_\-\-Routes}\label{class_plan_a9d1030af7a78431c9e7df643f096dacb}
+
+\item 
+\-Dictionnaire\-Intersections {\bfseries m\-\_\-\-Intersections}\label{class_plan_af7948c8ba5735470b166dbf634432662}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Plan@{\-Plan}!get\-Route@{get\-Route}}
+\index{get\-Route@{get\-Route}!Plan@{\-Plan}}
+\subsubsection[{get\-Route}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf \-Plan\-::\-Route} $\ast$ \-Plan\-::get\-Route (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Utils\-::\-Point} \&}]{point}
+\end{DoxyParamCaption}
+) const}\label{class_plan_aeb2cbd54e2c69ce776e314d0d8a4c14d}
+
+\begin{DoxyParams}{\-Parameters}
+{\em point} & \-Point du plan \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\doxyref{\-Route}{p.}{class_plan_1_1_route} du plan la plus proche de point 
+\end{DoxyReturn}
+\index{\-Plan@{\-Plan}!get\-Routes@{get\-Routes}}
+\index{get\-Routes@{get\-Routes}!Plan@{\-Plan}}
+\subsubsection[{get\-Routes}]{\setlength{\rightskip}{0pt plus 5cm}\-Plan\-::\-Liste\-Routes \-Plan\-::get\-Routes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\label{class_plan_a37c91cfdcf1bb9aa6491cba104d24610}
+\begin{DoxyReturn}{\-Returns}
+\-Liste des objets \doxyref{\-Route}{p.}{class_plan_1_1_route} du plan 
+\end{DoxyReturn}
+\index{\-Plan@{\-Plan}!get\-Routes@{get\-Routes}}
+\index{get\-Routes@{get\-Routes}!Plan@{\-Plan}}
+\subsubsection[{get\-Routes}]{\setlength{\rightskip}{0pt plus 5cm}\-Plan\-::\-Liste\-Routes \-Plan\-::get\-Routes (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Intersection} $\ast$}]{intersection}
+\end{DoxyParamCaption}
+) const}\label{class_plan_ad46c4be6f702aa4e142ba110f8d730b1}
+
+\begin{DoxyParams}{\-Parameters}
+{\em intersection} & \-Objet intersection \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+\-Liste des routes du plan reliées à l'intersection 
+\end{DoxyReturn}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+main/plan.\-h\item 
+main/plan.\-cpp\end{DoxyCompactItemize}

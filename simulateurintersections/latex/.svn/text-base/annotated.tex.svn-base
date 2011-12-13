@@ -1,0 +1,32 @@
+\section{\-Class \-List}
+\-Here are the classes, structs, unions and interfaces with brief descriptions\-:\begin{DoxyCompactList}
+\item\contentsline{section}{{\bf \-Vehicule\-::\-Action\-Conducteur} }{\pageref{struct_vehicule_1_1_action_conducteur}}{}
+\item\contentsline{section}{{\bf \-Utils\-::\-Cercle} }{\pageref{class_utils_1_1_cercle}}{}
+\item\contentsline{section}{{\bf \-Conducteur} }{\pageref{class_conducteur}}{}
+\item\contentsline{section}{{\bf \-Signalisation\-::\-Connexion} }{\pageref{class_signalisation_1_1_connexion}}{}
+\item\contentsline{section}{{\bf \-Signalisation\-::\-Etat} }{\pageref{class_signalisation_1_1_etat}}{}
+\item\contentsline{section}{{\bf \-Gestionnaire\-Images} }{\pageref{class_gestionnaire_images}}{}
+\item\contentsline{section}{{\bf \-Image} }{\pageref{class_image}}{}
+\item\contentsline{section}{{\bf \-Image\-Signalisation} }{\pageref{class_image_signalisation}}{}
+\item\contentsline{section}{{\bf \-Image\-Vehicule} }{\pageref{class_image_vehicule}}{}
+\item\contentsline{section}{{\bf \-Info\-Vehicule\-I\-H\-M} }{\pageref{class_info_vehicule_i_h_m}}{}
+\item\contentsline{section}{{\bf \-Plan\-::\-Intersection} }{\pageref{class_plan_1_1_intersection}}{}
+\item\contentsline{section}{{\bf \-Intersection\-I\-H\-M} }{\pageref{class_intersection_i_h_m}}{}
+\item\contentsline{section}{{\bf \-Utils\-::\-Ligne} }{\pageref{class_utils_1_1_ligne}}{}
+\item\contentsline{section}{{\bf \-Plan} }{\pageref{class_plan}}{}
+\item\contentsline{section}{{\bf \-Utils\-::\-Point} }{\pageref{class_utils_1_1_point}}{}
+\item\contentsline{section}{{\bf \-Plan\-::\-Route} }{\pageref{class_plan_1_1_route}}{}
+\item\contentsline{section}{{\bf \-Route\-I\-H\-M} }{\pageref{class_route_i_h_m}}{}
+\item\contentsline{section}{{\bf \-Utils\-::\-Segment} }{\pageref{class_utils_1_1_segment}}{}
+\item\contentsline{section}{{\bf \-Signalisation} }{\pageref{class_signalisation}}{}
+\item\contentsline{section}{{\bf \-Signalisation\-I\-H\-M} }{\pageref{class_signalisation_i_h_m}}{}
+\item\contentsline{section}{{\bf \-Simulateur\-Traffic} }{\pageref{class_simulateur_traffic}}{}
+\item\contentsline{section}{{\bf \-Simulation} }{\pageref{class_simulation}}{}
+\item\contentsline{section}{{\bf \-Simulation\-I\-H\-M} }{\pageref{class_simulation_i_h_m}}{}
+\item\contentsline{section}{{\bf \-Type\-Conducteur} }{\pageref{class_type_conducteur}}{}
+\item\contentsline{section}{{\bf \-Type\-Vehicule} }{\pageref{class_type_vehicule}}{}
+\item\contentsline{section}{{\bf \-Utils\-::\-Vecteur} }{\pageref{class_utils_1_1_vecteur}}{}
+\item\contentsline{section}{{\bf \-Vehicule} }{\pageref{class_vehicule}}{}
+\item\contentsline{section}{{\bf \-Vehicule\-I\-H\-M} }{\pageref{class_vehicule_i_h_m}}{}
+\item\contentsline{section}{{\bf \-Plan\-::\-Route\-::\-Voie} }{\pageref{class_plan_1_1_route_1_1_voie}}{}
+\end{DoxyCompactList}

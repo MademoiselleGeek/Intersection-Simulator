@@ -1,0 +1,93 @@
+\section{\-Image \-Class \-Reference}
+\label{class_image}\index{\-Image@{\-Image}}
+\subsection*{\-Public \-Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \-Q\-List\*
+$<$ {\bf \-Image\-Signalisation} $\ast$ $>$ {\bfseries \-Liste\-Images\-Signalisation}\label{class_image_a6fb1210176b73415bff620f45e4de08e}
+
+\item 
+typedef \-Q\-List$<$ {\bf \-Image\-Vehicule} $\ast$ $>$ {\bfseries \-Liste\-Vehicules}\label{class_image_a481887ce96027d831b7330e6d96bed19}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-Image} ()
+\item 
+void {\bf ajouter\-Image\-Signalisation} ({\bf \-Image\-Signalisation} $\ast$image)
+\item 
+\-Liste\-Images\-Signalisation {\bf images\-Signalisation} () const 
+\item 
+void {\bf ajouter\-Image\-Vehicule} ({\bf \-Image\-Vehicule} $\ast$image)
+\item 
+\-Liste\-Vehicules {\bf images\-Vehicule} () const 
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Q\-Time {\bfseries m\-\_\-\-Tps}\label{class_image_a638c183272db6a2dfb4a8e05b3452640}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Liste\-Images\-Signalisation {\bfseries m\-\_\-\-Images\-Signalisation}\label{class_image_a3162e374b3b40dd21bd1f1302f60ec0e}
+
+\item 
+\-Liste\-Vehicules {\bfseries m\-\_\-\-Vehicules}\label{class_image_aed98a63f0612a5acabf310926762b85e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\index{\-Image@{\-Image}!\-Image@{\-Image}}
+\index{\-Image@{\-Image}!Image@{\-Image}}
+\subsubsection[{\-Image}]{\setlength{\rightskip}{0pt plus 5cm}\-Image\-::\-Image (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_image_a58edd1c45b4faeb5f789b0d036d02313}
+\-Constructeur 
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Image@{\-Image}!ajouter\-Image\-Signalisation@{ajouter\-Image\-Signalisation}}
+\index{ajouter\-Image\-Signalisation@{ajouter\-Image\-Signalisation}!Image@{\-Image}}
+\subsubsection[{ajouter\-Image\-Signalisation}]{\setlength{\rightskip}{0pt plus 5cm}void \-Image\-::ajouter\-Image\-Signalisation (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Image\-Signalisation} $\ast$}]{image}
+\end{DoxyParamCaption}
+)}\label{class_image_a764db5176e8bc7a677fcc54696a24230}
+\-Ajoute une \doxyref{\-Image\-Signalisation}{p.}{class_image_signalisation} à l'image \index{\-Image@{\-Image}!ajouter\-Image\-Vehicule@{ajouter\-Image\-Vehicule}}
+\index{ajouter\-Image\-Vehicule@{ajouter\-Image\-Vehicule}!Image@{\-Image}}
+\subsubsection[{ajouter\-Image\-Vehicule}]{\setlength{\rightskip}{0pt plus 5cm}void \-Image\-::ajouter\-Image\-Vehicule (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Image\-Vehicule} $\ast$}]{image}
+\end{DoxyParamCaption}
+)}\label{class_image_afa0f0404ce92e81e2541c9945faf3ef6}
+\-Ajoute une \doxyref{\-Image\-Vehicule}{p.}{class_image_vehicule} à l'image \index{\-Image@{\-Image}!images\-Signalisation@{images\-Signalisation}}
+\index{images\-Signalisation@{images\-Signalisation}!Image@{\-Image}}
+\subsubsection[{images\-Signalisation}]{\setlength{\rightskip}{0pt plus 5cm}\-Image\-::\-Liste\-Images\-Signalisation \-Image\-::images\-Signalisation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\label{class_image_a5aa608e756124594c1d3642ff7d4e170}
+\begin{DoxyReturn}{\-Returns}
+\-Images signalisation de l'image 
+\end{DoxyReturn}
+\index{\-Image@{\-Image}!images\-Vehicule@{images\-Vehicule}}
+\index{images\-Vehicule@{images\-Vehicule}!Image@{\-Image}}
+\subsubsection[{images\-Vehicule}]{\setlength{\rightskip}{0pt plus 5cm}\-Image\-::\-Liste\-Vehicules \-Image\-::images\-Vehicule (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\label{class_image_a6c9dcbef0a729cf53353090a6da38ea2}
+\begin{DoxyReturn}{\-Returns}
+\-Images vehicule de l'image 
+\end{DoxyReturn}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+ihm/images/image.\-h\item 
+ihm/images/image.\-cpp\end{DoxyCompactItemize}

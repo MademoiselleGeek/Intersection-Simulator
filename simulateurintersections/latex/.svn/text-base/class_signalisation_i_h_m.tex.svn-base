@@ -1,0 +1,54 @@
+\section{\-Signalisation\-I\-H\-M \-Class \-Reference}
+\label{class_signalisation_i_h_m}\index{\-Signalisation\-I\-H\-M@{\-Signalisation\-I\-H\-M}}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-Signalisation\-I\-H\-M} ()
+\item 
+void {\bf set\-Image} ({\bf \-Image\-Signalisation} $\ast$image)
+\item 
+void {\bf set\-Intersection} (const {\bf \-Plan\-::\-Intersection} $\ast$intersection)
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\index{\-Signalisation\-I\-H\-M@{\-Signalisation\-I\-H\-M}!\-Signalisation\-I\-H\-M@{\-Signalisation\-I\-H\-M}}
+\index{\-Signalisation\-I\-H\-M@{\-Signalisation\-I\-H\-M}!SignalisationIHM@{\-Signalisation\-I\-H\-M}}
+\subsubsection[{\-Signalisation\-I\-H\-M}]{\setlength{\rightskip}{0pt plus 5cm}\-Signalisation\-I\-H\-M\-::\-Signalisation\-I\-H\-M (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_signalisation_i_h_m_aa16781726e4a63d54c12a799fdd698aa}
+\-Constructeur 
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Signalisation\-I\-H\-M@{\-Signalisation\-I\-H\-M}!set\-Image@{set\-Image}}
+\index{set\-Image@{set\-Image}!SignalisationIHM@{\-Signalisation\-I\-H\-M}}
+\subsubsection[{set\-Image}]{\setlength{\rightskip}{0pt plus 5cm}void \-Signalisation\-I\-H\-M\-::set\-Image (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Image\-Signalisation} $\ast$}]{image}
+\end{DoxyParamCaption}
+)}\label{class_signalisation_i_h_m_a7eb5638a6af9dedc27028dbfc3234862}
+\-Affiche un feu de couleur verte, orange ou rouge selon les paramètres de image 
+\begin{DoxyParams}{\-Parameters}
+{\em image} & \-Objet \doxyref{\-Image\-Signalisation}{p.}{class_image_signalisation} \\
+\hline
+\end{DoxyParams}
+\index{\-Signalisation\-I\-H\-M@{\-Signalisation\-I\-H\-M}!set\-Intersection@{set\-Intersection}}
+\index{set\-Intersection@{set\-Intersection}!SignalisationIHM@{\-Signalisation\-I\-H\-M}}
+\subsubsection[{set\-Intersection}]{\setlength{\rightskip}{0pt plus 5cm}void \-Signalisation\-I\-H\-M\-::set\-Intersection (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Plan\-::\-Intersection} $\ast$}]{intersection}
+\end{DoxyParamCaption}
+)}\label{class_signalisation_i_h_m_a049a407ed0530879bbff7ed609b9ceca}
+\-Initialise m\-\_\-\-Intersection pour cet objet \doxyref{\-Signalisation\-I\-H\-M}{p.}{class_signalisation_i_h_m} et affiche un feu rouge 
+\begin{DoxyParams}{\-Parameters}
+{\em intersection} & \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+ihm/signalisationihm.\-h\item 
+ihm/signalisationihm.\-cpp\end{DoxyCompactItemize}

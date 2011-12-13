@@ -1,0 +1,24 @@
+\section{\-Plan\-:\-:\-Route\-:\-:\-Voie \-Class \-Reference}
+\label{class_plan_1_1_route_1_1_voie}\index{\-Plan\-::\-Route\-::\-Voie@{\-Plan\-::\-Route\-::\-Voie}}
+\subsection*{\-Public \-Types}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries \-Direction} \{ {\bfseries \-A\-U\-C\-U\-N\-E}, 
+{\bfseries \-P\-R\-E\-M\-\_\-\-V\-E\-R\-S\-\_\-\-D\-E\-U\-X}, 
+{\bfseries \-D\-E\-U\-X\-\_\-\-V\-E\-R\-S\-\_\-\-P\-R\-E\-M}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Direction {\bfseries m\-\_\-\-Direction}\label{class_plan_1_1_route_1_1_voie_a2f1f417975203bef79e26deae5e62347}
+
+\item 
+{\bf \-Utils\-::\-Segment} {\bfseries m\-\_\-\-Segment}\label{class_plan_1_1_route_1_1_voie_a55d25b5926b1c9ae09f99716435dd103}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+main/plan.\-h\end{DoxyCompactItemize}

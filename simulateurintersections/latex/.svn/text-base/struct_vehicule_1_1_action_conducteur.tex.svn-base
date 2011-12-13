@@ -1,0 +1,19 @@
+\section{\-Vehicule\-:\-:\-Action\-Conducteur \-Struct \-Reference}
+\label{struct_vehicule_1_1_action_conducteur}\index{\-Vehicule\-::\-Action\-Conducteur@{\-Vehicule\-::\-Action\-Conducteur}}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Type\-Action\-Conducteur {\bfseries action}\label{struct_vehicule_1_1_action_conducteur_a1ea515ef351b445f085b2c746645bf19}
+
+\item 
+qreal {\bfseries valeur}\label{struct_vehicule_1_1_action_conducteur_a0e2583b4e55abd1e294b39faf5d9dd36}
+
+\item 
+\-Q\-Time {\bfseries heure}\label{struct_vehicule_1_1_action_conducteur_a7de5bee03218bf1e90b9e5863f079838}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+main/vehicule.\-h\end{DoxyCompactItemize}

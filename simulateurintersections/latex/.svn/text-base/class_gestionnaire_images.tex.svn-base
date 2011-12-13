@@ -1,0 +1,101 @@
+\section{\-Gestionnaire\-Images \-Class \-Reference}
+\label{class_gestionnaire_images}\index{\-Gestionnaire\-Images@{\-Gestionnaire\-Images}}
+\subsection*{\-Public \-Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \-Q\-List$<$ {\bf \-Image} $\ast$ $>$ {\bfseries \-Liste\-Images}\label{class_gestionnaire_images_ae50ff1006c9caa39c1bb2b57ea5ae214}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-Gestionnaire\-Images} ()
+\item 
+virtual {\bf $\sim$\-Gestionnaire\-Images} ()
+\item 
+void {\bf ajouter\-Images} ()
+\item 
+void {\bf effacer\-Images} ()
+\item 
+{\bf \-Image} $\ast$ {\bf image\-Actuelle} ()
+\item 
+void {\bfseries set\-Id\-Image\-Actuelle} (const unsigned int id)\label{class_gestionnaire_images_a2045ab8acdb3747bb183fe418511c63f}
+
+\item 
+void {\bf image\-Suivante} (unsigned int nb\-Images=1)
+\item 
+void {\bf derniere\-Image} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Liste\-Images {\bfseries m\-\_\-\-Images}\label{class_gestionnaire_images_a94064084a91bef5f54f9cad361b76641}
+
+\item 
+unsigned int {\bfseries m\-\_\-\-Id\-Image\-Actuelle}\label{class_gestionnaire_images_a779d2498cb5a86fb4ff608c698d25606}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\index{\-Gestionnaire\-Images@{\-Gestionnaire\-Images}!\-Gestionnaire\-Images@{\-Gestionnaire\-Images}}
+\index{\-Gestionnaire\-Images@{\-Gestionnaire\-Images}!GestionnaireImages@{\-Gestionnaire\-Images}}
+\subsubsection[{\-Gestionnaire\-Images}]{\setlength{\rightskip}{0pt plus 5cm}\-Gestionnaire\-Images\-::\-Gestionnaire\-Images (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_gestionnaire_images_ad331608d25749a331b36e26e7775ce8f}
+\-Constructeur, initialise l'identifiant de l'image actuelle à 0 \index{\-Gestionnaire\-Images@{\-Gestionnaire\-Images}!$\sim$\-Gestionnaire\-Images@{$\sim$\-Gestionnaire\-Images}}
+\index{$\sim$\-Gestionnaire\-Images@{$\sim$\-Gestionnaire\-Images}!GestionnaireImages@{\-Gestionnaire\-Images}}
+\subsubsection[{$\sim$\-Gestionnaire\-Images}]{\setlength{\rightskip}{0pt plus 5cm}\-Gestionnaire\-Images\-::$\sim$\-Gestionnaire\-Images (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  [virtual]}}\label{class_gestionnaire_images_af85952e62c5ad7aec347242f89e01ad1}
+\-Destructeur, efface les images 
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Gestionnaire\-Images@{\-Gestionnaire\-Images}!ajouter\-Images@{ajouter\-Images}}
+\index{ajouter\-Images@{ajouter\-Images}!GestionnaireImages@{\-Gestionnaire\-Images}}
+\subsubsection[{ajouter\-Images}]{\setlength{\rightskip}{0pt plus 5cm}void \-Gestionnaire\-Images\-::ajouter\-Images (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_gestionnaire_images_af18fd7f891cad92a18d8fcf7f38296cb}
+\-Récupère l'instance de la simulation en cours, et tous les éléments listés dans m\-\_\-\-Vehicules et m\-\_\-\-Signalisations et rajoute les images correspondantes à la variable m\-\_\-\-Images de la simulation \index{\-Gestionnaire\-Images@{\-Gestionnaire\-Images}!derniere\-Image@{derniere\-Image}}
+\index{derniere\-Image@{derniere\-Image}!GestionnaireImages@{\-Gestionnaire\-Images}}
+\subsubsection[{derniere\-Image}]{\setlength{\rightskip}{0pt plus 5cm}void \-Gestionnaire\-Images\-::derniere\-Image (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_gestionnaire_images_ae7b545f4bf0c59fce73d6c87ce7ff228}
+\-Règle l'identifiant image actuelle sur le plus haut identifiant des images disponibles \-Si aucune image n'est disponible, remise à zéro de l'identifiant de l'image actuelle \index{\-Gestionnaire\-Images@{\-Gestionnaire\-Images}!effacer\-Images@{effacer\-Images}}
+\index{effacer\-Images@{effacer\-Images}!GestionnaireImages@{\-Gestionnaire\-Images}}
+\subsubsection[{effacer\-Images}]{\setlength{\rightskip}{0pt plus 5cm}void \-Gestionnaire\-Images\-::effacer\-Images (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_gestionnaire_images_abf17134a0e54cade46501ba7a449f3c1}
+\-Efface les images et remet à zéro l'identifiant de l'image actuelle \index{\-Gestionnaire\-Images@{\-Gestionnaire\-Images}!image\-Actuelle@{image\-Actuelle}}
+\index{image\-Actuelle@{image\-Actuelle}!GestionnaireImages@{\-Gestionnaire\-Images}}
+\subsubsection[{image\-Actuelle}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Image} $\ast$ \-Gestionnaire\-Images\-::image\-Actuelle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_gestionnaire_images_aaf7569302ab7e98fc5766a88a269d175}
+\begin{DoxyReturn}{\-Returns}
+\doxyref{\-Image}{p.}{class_image} correspondant à l'identifiant image actuelle 
+\end{DoxyReturn}
+\index{\-Gestionnaire\-Images@{\-Gestionnaire\-Images}!image\-Suivante@{image\-Suivante}}
+\index{image\-Suivante@{image\-Suivante}!GestionnaireImages@{\-Gestionnaire\-Images}}
+\subsubsection[{image\-Suivante}]{\setlength{\rightskip}{0pt plus 5cm}void \-Gestionnaire\-Images\-::image\-Suivante (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{nb\-Images = {\ttfamily 1}}
+\end{DoxyParamCaption}
+)}\label{class_gestionnaire_images_a448c19b455958f0a736764399b60d63e}
+\-Incrémente l'identifiant image actuelle 
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+ihm/images/gestionnaireimages.\-h\item 
+ihm/images/gestionnaireimages.\-cpp\end{DoxyCompactItemize}

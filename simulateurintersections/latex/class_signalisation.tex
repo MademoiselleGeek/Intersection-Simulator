@@ -1,0 +1,59 @@
+\section{\-Signalisation \-Class \-Reference}
+\label{class_signalisation}\index{\-Signalisation@{\-Signalisation}}
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bf \-Connexion}
+\item 
+class {\bf \-Etat}
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Types}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries \-C\-O\-U\-L\-E\-U\-R\-\_\-\-F\-E\-U} \{ {\bfseries \-R\-O\-U\-G\-E}, 
+{\bfseries \-O\-R\-A\-N\-G\-E}, 
+{\bfseries \-V\-E\-R\-T}
+ \}
+\item 
+typedef \-Q\-List$<$ {\bf \-Connexion} $\ast$ $>$ {\bfseries \-Liste\-Connexions}\label{class_signalisation_a1c154bdd126a241c4012fec8f660cb1c}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries set\-Intersection} (const {\bf \-Plan\-::\-Intersection} $\ast$intersection)\label{class_signalisation_a8576d7d567b55f832ee6a60ccbd749d8}
+
+\item 
+const {\bf \-Plan\-::\-Intersection} $\ast$ {\bfseries intersection} () const \label{class_signalisation_a483d5ea0ee335d7535065f0744f7aae7}
+
+\item 
+void {\bfseries ajouter\-Etat} ({\bf \-Etat} $\ast$etat)\label{class_signalisation_a8661dbf1911633f5c0ae676b190099b5}
+
+\item 
+{\bf \-Etat} $\ast$ {\bfseries etat\-Actuel} () const \label{class_signalisation_a1ff20ff6b49f79af978d8834737d603f}
+
+\item 
+void {\bfseries avancer} ()\label{class_signalisation_aad7246c83bc83f478407d5b02c4282e1}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Q\-List$<$ {\bf \-Etat} $\ast$ $>$ {\bfseries m\-\_\-\-Etats}\label{class_signalisation_ac7031fe664c5330e05b1554743dfaac2}
+
+\item 
+const {\bf \-Plan\-::\-Intersection} $\ast$ {\bfseries m\-\_\-\-Intersection}\label{class_signalisation_a4dd88b17dcccddf41cfa1eb464ed4c4d}
+
+\item 
+int {\bfseries m\-\_\-\-Id\-Etat\-Actuel}\label{class_signalisation_a5e8bb126f002ee9ddeeac7f4932fdefc}
+
+\item 
+qreal {\bfseries m\-\_\-\-Tps\-Depuis\-Dernier\-Changt\-Etat}\label{class_signalisation_a9cc11d9ec4992a6dc424ca6965cbfdd2}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+main/signalisation.\-h\item 
+main/signalisation.\-cpp\end{DoxyCompactItemize}

@@ -1,0 +1,111 @@
+\section{\-Simulation \-Class \-Reference}
+\label{class_simulation}\index{\-Simulation@{\-Simulation}}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bfseries executer} ()\label{class_simulation_a3684522d43411bb7a6b6169014f2e814}
+
+\item 
+void {\bf ouvrir\-Fichier\-X\-M\-L\-Plan} (const \-Q\-String \&nom\-Fichier)
+\item 
+void {\bfseries effacer\-Plan} ()\label{class_simulation_a6a5a2b420801a531a956335a0244fabb}
+
+\item 
+void {\bfseries ouvrir\-Fichier\-X\-M\-L\-Types} (const \-Q\-String \&file\-Name)\label{class_simulation_a6044c9939ae288b7f9ab8d65ef1543aa}
+
+\item 
+void {\bfseries ouvrir\-Fichier\-X\-M\-L\-Simulation} (const \-Q\-String \&file\-Name)\label{class_simulation_a42c4739d46b8b571a9729889ad031b41}
+
+\item 
+\-Q\-String {\bfseries ouvrir\-Fichier\-X\-M\-L\-Signalisation} (const \-Q\-String \&nom\-Fichier)\label{class_simulation_a59ae09f9c915d31b89babde3043188ed}
+
+\item 
+void {\bfseries rafraichir\-Simulation} ()\label{class_simulation_a18bc67900bc20e11cd055248fd92cd26}
+
+\item 
+void {\bfseries set\-Fin\-Simulation} (bool exiting)\label{class_simulation_a4e39543e76cd3e9e59a0e3412a86b5fb}
+
+\item 
+bool {\bfseries fin\-Simulation} ()\label{class_simulation_ad53c5201c0bcb24f9b4aa0d9047225ac}
+
+\item 
+void {\bfseries avancer} ()\label{class_simulation_a0e66c4c185bf3eb83a819aa89557c7c5}
+
+\item 
+void {\bfseries ajouter\-Vehicule} ({\bf \-Vehicule} $\ast$v)\label{class_simulation_a67403b6e644b139382e3ede4f21e307a}
+
+\item 
+{\bf \-Vehicule} $\ast$ {\bfseries ajouter\-Vehicule} (const \-Q\-String \&nom, const \-Q\-String \&nom\-\_\-\-Type\-Vehicule)\label{class_simulation_a6cadb462f53e2c4202e0972714071953}
+
+\item 
+{\bf \-Vehicule} $\ast$ {\bfseries trouver\-Vehicule} (const \-Q\-String \&nom)\label{class_simulation_a1229c02c36e79b0ce5bab0f64162754d}
+
+\item 
+void {\bfseries ajouter\-Conducteur} ({\bf \-Conducteur} $\ast$d)\label{class_simulation_adf7e31b9cf473e54e40ab2a9e14e8c76}
+
+\item 
+{\bf \-Conducteur} $\ast$ {\bfseries ajouter\-Conducteur} (const \-Q\-String \&nom, const \-Q\-String \&nom\-\_\-\-Type\-Conducteur)\label{class_simulation_a8f57a355807ceb0494bb6214c8badbdb}
+
+\item 
+{\bf \-Conducteur} $\ast$ {\bfseries trouver\-Conducteur} (const \-Q\-String \&nom)\label{class_simulation_a82c74207f6ecda38a44572573eaa577a}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Static \-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+static {\bf \-Simulation} $\ast$ {\bfseries instance} ()\label{class_simulation_a69665d23c8ade629695af8ab1b4a7e9a}
+
+\item 
+static bool {\bfseries supprimer\-Instance} ()\label{class_simulation_a7873c028ead2a9f54c1513d7db1f91c8}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Q\-List$<$ {\bf \-Type\-Vehicule} $\ast$ $>$ {\bfseries m\-\_\-\-Types\-Vehicule}\label{class_simulation_a5166289571e417410c295baab3a56354}
+
+\item 
+\-Q\-List$<$ {\bf \-Type\-Conducteur} $\ast$ $>$ {\bfseries m\-\_\-\-Types\-Conducteur}\label{class_simulation_a06d169ffca2ada95087108e7976e6ea7}
+
+\item 
+\-Q\-List$<$ {\bf \-Vehicule} $\ast$ $>$ {\bfseries m\-\_\-\-Vehicules}\label{class_simulation_a03a586edcac1bde9ae07ac9fc2ba4549}
+
+\item 
+\-Q\-List$<$ {\bf \-Conducteur} $\ast$ $>$ {\bfseries m\-\_\-\-Conducteurs}\label{class_simulation_a55d79b7dc2f16bea0bdff349b758fc94}
+
+\item 
+\-Q\-Map$<$ const {\bf \-Plan\-::\-Intersection} \*
+$\ast$, {\bf \-Signalisation} $\ast$ $>$ {\bfseries m\-\_\-\-Signalisations}\label{class_simulation_a10b038b917a8424264e961202cd08f4e}
+
+\item 
+{\bf \-Plan} $\ast$ {\bfseries m\-\_\-\-Plan}\label{class_simulation_a4ed72c5c5ae354ac4550634c07593a46}
+
+\item 
+{\bf \-Gestionnaire\-Images} {\bfseries m\-\_\-\-Gestionnaire\-Images}\label{class_simulation_a797dcb86e94f18ac429604335b03b762}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Static \-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static qreal {\bfseries m\-\_\-\-Pas\-Simulation} = 0.\-1f\label{class_simulation_a7338e462b864a5ffe2f1e7e38fdce827}
+
+\item 
+static \-Q\-Time {\bfseries m\-\_\-\-Tps\-Simulation}\label{class_simulation_a012e0aeaaca2a0a0e5d0d72a1426d303}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Simulation@{\-Simulation}!ouvrir\-Fichier\-X\-M\-L\-Plan@{ouvrir\-Fichier\-X\-M\-L\-Plan}}
+\index{ouvrir\-Fichier\-X\-M\-L\-Plan@{ouvrir\-Fichier\-X\-M\-L\-Plan}!Simulation@{\-Simulation}}
+\subsubsection[{ouvrir\-Fichier\-X\-M\-L\-Plan}]{\setlength{\rightskip}{0pt plus 5cm}void \-Simulation\-::ouvrir\-Fichier\-X\-M\-L\-Plan (
+\begin{DoxyParamCaption}
+\item[{const \-Q\-String \&}]{nom\-Fichier}
+\end{DoxyParamCaption}
+)}\label{class_simulation_ad9fbae495f12938c25a3007a5af5865d}
+\-Parser le fichier \-X\-M\-L définissant le plan et en assigner le contenu à la variable m\-\_\-\-Plan de cette simulation 
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+main/simulation.\-h\item 
+main/simulation.\-cpp\end{DoxyCompactItemize}

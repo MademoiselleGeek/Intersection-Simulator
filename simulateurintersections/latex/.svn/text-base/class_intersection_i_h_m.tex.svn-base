@@ -1,0 +1,46 @@
+\section{\-Intersection\-I\-H\-M \-Class \-Reference}
+\label{class_intersection_i_h_m}\index{\-Intersection\-I\-H\-M@{\-Intersection\-I\-H\-M}}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-Intersection\-I\-H\-M} (\-Q\-Graphics\-Item $\ast$parent=0)
+\item 
+void {\bf ajouter\-Routes} (const \-Plan\-::\-Liste\-Routes \&routes)
+\item 
+void {\bfseries set\-Nom\-Intersection} (const \-Q\-String \&nom)\label{class_intersection_i_h_m_ac690d1a0d6c02b6dd85849238e34cb16}
+
+\item 
+void {\bfseries set\-Centre\-Intersection} (const {\bf \-Utils\-::\-Point} \&centre)\label{class_intersection_i_h_m_a0b5dc91875f8de3991ea47181a0e7e53}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\index{\-Intersection\-I\-H\-M@{\-Intersection\-I\-H\-M}!\-Intersection\-I\-H\-M@{\-Intersection\-I\-H\-M}}
+\index{\-Intersection\-I\-H\-M@{\-Intersection\-I\-H\-M}!IntersectionIHM@{\-Intersection\-I\-H\-M}}
+\subsubsection[{\-Intersection\-I\-H\-M}]{\setlength{\rightskip}{0pt plus 5cm}\-Intersection\-I\-H\-M\-::\-Intersection\-I\-H\-M (
+\begin{DoxyParamCaption}
+\item[{\-Q\-Graphics\-Item $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}\label{class_intersection_i_h_m_a7f5e5d06e0db19d22823fc1084b057f0}
+\-Constructeur, fond noir pour l'intersection 
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Intersection\-I\-H\-M@{\-Intersection\-I\-H\-M}!ajouter\-Routes@{ajouter\-Routes}}
+\index{ajouter\-Routes@{ajouter\-Routes}!IntersectionIHM@{\-Intersection\-I\-H\-M}}
+\subsubsection[{ajouter\-Routes}]{\setlength{\rightskip}{0pt plus 5cm}void \-Intersection\-I\-H\-M\-::ajouter\-Routes (
+\begin{DoxyParamCaption}
+\item[{const \-Plan\-::\-Liste\-Routes \&}]{routes}
+\end{DoxyParamCaption}
+)}\label{class_intersection_i_h_m_a7b900002a74a9ba336d64f14b862a582}
+\-Remplir les variables m\-\_\-\-Points et m\-\_\-\-Segments avec le contenu de routes, normaliser la position des points par rapport au centre de l'intersection, puis dessiner l'intersection 
+\begin{DoxyParams}{\-Parameters}
+{\em routes} & \-Liste\-Routes dont les données seront utilisées pour dessiner l'intersection \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+ihm/intersectionihm.\-h\item 
+ihm/intersectionihm.\-cpp\end{DoxyCompactItemize}

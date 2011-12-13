@@ -1,0 +1,128 @@
+\section{\-Utils\-:\-:\-Point \-Class \-Reference}
+\label{class_utils_1_1_point}\index{\-Utils\-::\-Point@{\-Utils\-::\-Point}}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries \-Point} (qreal x, qreal y)\label{class_utils_1_1_point_af875b3bcb53012e9559a16813a10bc33}
+
+\item 
+{\bfseries \-Point} (const \-Q\-Point \&point)\label{class_utils_1_1_point_acf08a652e650906511783153ae153ba6}
+
+\item 
+{\bfseries \-Point} (const \-Q\-Point\-F \&point)\label{class_utils_1_1_point_a177a9e281c5ae1adc9fb69a5305b26d6}
+
+\item 
+{\bf \-Point} {\bfseries operator/} (qreal mise\-A\-Echelle) const \label{class_utils_1_1_point_a98480456f3492bea720c741231777519}
+
+\item 
+{\bf \-Point} {\bfseries operator$\ast$} (qreal mise\-A\-Echelle) const \label{class_utils_1_1_point_a0d48f0533b588f4820430e7ec9812ee8}
+
+\item 
+{\bf \-Point} {\bfseries operator-\/} (const {\bf \-Point} \&point) const \label{class_utils_1_1_point_a05757c12e9ef16e8ab7aeb4d93c0f491}
+
+\item 
+{\bf \-Point} {\bfseries operator+} (const {\bf \-Point} \&point) const \label{class_utils_1_1_point_a22255f2b418abe0b6c9176b573aa8261}
+
+\item 
+const {\bf \-Point} \& {\bfseries operator+=} (const {\bf \-Point} \&point)\label{class_utils_1_1_point_a3e65d5e32b95b18c8591a5372e6ca924}
+
+\item 
+const {\bf \-Point} \& {\bfseries operator-\/=} (const {\bf \-Point} \&point)\label{class_utils_1_1_point_a8a72633e27ad92992309979c264e11b0}
+
+\item 
+const {\bf \-Point} \& {\bfseries operator/=} (qreal mise\-A\-Echelle)\label{class_utils_1_1_point_a2ce3ed43ac1e32b95d24d9911c0bf237}
+
+\item 
+const {\bf \-Point} \& {\bfseries operator$\ast$=} (qreal mise\-A\-Echelle)\label{class_utils_1_1_point_a088094d5e6b1588e80b95a078fa60edc}
+
+\item 
+qreal {\bfseries operator$\ast$} (const {\bf \-Point} \&point) const \label{class_utils_1_1_point_af31903d7c66bfd883db65febcb502e99}
+
+\item 
+bool {\bfseries operator$<$} (const {\bf \-Point} \&point) const \label{class_utils_1_1_point_a3a5017a89f7858a49456b44a7f9210fd}
+
+\item 
+bool {\bfseries operator==} (const {\bf \-Point} \&point) const \label{class_utils_1_1_point_a82c0a5b8a72d4035a0bf4fa46764d6c1}
+
+\item 
+qreal {\bf angle} (const bool retablir\-Entre0et360=false) const 
+\item 
+qreal {\bfseries norme} () const \label{class_utils_1_1_point_a2da1657f746f9b09b2d0af8e6f5471a4}
+
+\item 
+void {\bf normaliser} ()
+\item 
+qreal {\bfseries mult} (const {\bf \-Point} \&point) const \label{class_utils_1_1_point_a87f367ca1dc5a1e93d894601ae7ba3d0}
+
+\item 
+qreal {\bfseries multcroisee} (const {\bf \-Point} \&point) const \label{class_utils_1_1_point_acedfc402a9d1f7cc65b32d5cb70a2870}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Static \-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+static qreal {\bf retablir\-Entre0et360} (const qreal valeur)
+\item 
+static qreal {\bf retablir\-Entre0et180} (const qreal valeur)
+\item 
+static qreal {\bfseries angle} (const {\bf \-Point} \&point1, const {\bf \-Point} \&point2)\label{class_utils_1_1_point_a5cdc9db43bc062f0747c5904c3398a4b}
+
+\item 
+static qreal {\bfseries angle\-Signe} (const {\bf \-Point} \&point1, const {\bf \-Point} \&point2)\label{class_utils_1_1_point_a037534f7e970dc4f42aac36247cc0550}
+
+\item 
+static qreal {\bfseries angle\-Entre\-Deux\-Points} (const {\bf \-Point} \&point1, const {\bf \-Point} \&point2)\label{class_utils_1_1_point_ae6397d431beba93e46be3524d38a915d}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Utils\-::\-Point@{\-Utils\-::\-Point}!angle@{angle}}
+\index{angle@{angle}!Utils::Point@{\-Utils\-::\-Point}}
+\subsubsection[{angle}]{\setlength{\rightskip}{0pt plus 5cm}qreal \-Utils\-::\-Point\-::angle (
+\begin{DoxyParamCaption}
+\item[{const bool}]{retablir\-Entre0et360 = {\ttfamily false}}
+\end{DoxyParamCaption}
+) const}\label{class_utils_1_1_point_a03c40b27b79dde2c1196c9b9491d9a1e}
+\-Donne la valeur de l'angle par rapport à l'origine de ce point en degrés 
+\begin{DoxyParams}{\-Parameters}
+{\em retablir\-Entre0et360} & \-Si vrai, l'angle est entre 0 et 360, sinon l'angle est rétabli entre 0 et 180 \\
+\hline
+\end{DoxyParams}
+\index{\-Utils\-::\-Point@{\-Utils\-::\-Point}!normaliser@{normaliser}}
+\index{normaliser@{normaliser}!Utils::Point@{\-Utils\-::\-Point}}
+\subsubsection[{normaliser}]{\setlength{\rightskip}{0pt plus 5cm}void \-Utils\-::\-Point\-::normaliser (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_utils_1_1_point_a68e3c0f8579437673002a93aa8a3d33c}
+\-Ramener la norme du point à 1 \index{\-Utils\-::\-Point@{\-Utils\-::\-Point}!retablir\-Entre0et180@{retablir\-Entre0et180}}
+\index{retablir\-Entre0et180@{retablir\-Entre0et180}!Utils::Point@{\-Utils\-::\-Point}}
+\subsubsection[{retablir\-Entre0et180}]{\setlength{\rightskip}{0pt plus 5cm}qreal \-Utils\-::\-Point\-::retablir\-Entre0et180 (
+\begin{DoxyParamCaption}
+\item[{const qreal}]{valeur}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  [static]}}\label{class_utils_1_1_point_ad17fdb25d5ed9a22121df19e1eeff042}
+\-Rétablit la valeur de l'angle entre 0 et 180 
+\begin{DoxyParams}{\-Parameters}
+{\em valeur} & \-Angle en degrés \\
+\hline
+\end{DoxyParams}
+\index{\-Utils\-::\-Point@{\-Utils\-::\-Point}!retablir\-Entre0et360@{retablir\-Entre0et360}}
+\index{retablir\-Entre0et360@{retablir\-Entre0et360}!Utils::Point@{\-Utils\-::\-Point}}
+\subsubsection[{retablir\-Entre0et360}]{\setlength{\rightskip}{0pt plus 5cm}qreal \-Utils\-::\-Point\-::retablir\-Entre0et360 (
+\begin{DoxyParamCaption}
+\item[{const qreal}]{valeur}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  [static]}}\label{class_utils_1_1_point_aefadd27c75c4c2e150fa896a08f320bb}
+\-Rétablit la valeur de l'angle entre 0 et 360 
+\begin{DoxyParams}{\-Parameters}
+{\em valeur} & \-Angle en degrés \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+utils/point.\-h\item 
+utils/point.\-cpp\end{DoxyCompactItemize}

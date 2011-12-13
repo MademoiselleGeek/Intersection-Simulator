@@ -1,0 +1,111 @@
+\section{\-Conducteur \-Class \-Reference}
+\label{class_conducteur}\index{\-Conducteur@{\-Conducteur}}
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries \-Coordonnees}
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Types}
+\begin{DoxyCompactItemize}
+\item 
+enum {\bfseries \-Type\-Objectif} \{ {\bfseries \-C\-O\-O\-R\-D\-O\-N\-N\-E\-E\-S}, 
+{\bfseries \-O\-B\-S\-T\-A\-C\-L\-E}, 
+{\bfseries \-V\-O\-I\-E}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries \-Conducteur} (const \-Q\-String \&nom)\label{class_conducteur_a0907bd021ade4734aec36b63ba1e44d8}
+
+\item 
+\-Q\-String {\bfseries nom} ()\label{class_conducteur_ae0c77bc8e18b467b210d0860f01c9b2f}
+
+\item 
+{\bf \-Point} {\bfseries destination} ()\label{class_conducteur_ac6924c4066679e8f2141ce4c31d0d2a6}
+
+\item 
+void {\bfseries ajouter\-Coordonnees} (const {\bf \-Point} \&p)\label{class_conducteur_a4d920a06e38d205ca57ed5a090bc4cf4}
+
+\item 
+void {\bfseries ajouter\-Coordonnees} (const \-Q\-String \&nom\-Intersection)\label{class_conducteur_aa1c055a9ab2b4d2cff2fe6e8c9cf1369}
+
+\item 
+void {\bfseries avancer} ()\label{class_conducteur_a3cded02ff29688a3911bc5f0c64851aa}
+
+\item 
+bool {\bfseries aller\-Vers} (const {\bf \-Point} \&objectif, const \-Type\-Objectif \-Type\-Objectif=\-C\-O\-O\-R\-D\-O\-N\-N\-E\-E\-S)\label{class_conducteur_a6a772a128c72932a1b07eaf638edbc22}
+
+\item 
+void {\bfseries modifier\-Coordonnees} ()\label{class_conducteur_a57bc3d5b41bae6f71e475d4f9ed76a76}
+
+\item 
+bool {\bfseries prevoir\-Collisions} ({\bf \-Point} \&collision)\label{class_conducteur_a09c02006ca797d9602f88db6ee71660b}
+
+\item 
+void {\bfseries utiliser} ({\bf \-Vehicule} $\ast$vehicule)\label{class_conducteur_aaf3402e7b5d3fd7dde6c253036aade01}
+
+\item 
+bool {\bfseries verifier\-Feux} ({\bf \-Point} \&coordonnees\-Feu)\label{class_conducteur_a178fb8678b206b38f1f4ad9581140c26}
+
+\item 
+bool {\bfseries verifier\-Voie} ({\bf \-Point} \&objectif\-Voie)\label{class_conducteur_a443f4c1c15debb96b0ff0b9f486984f1}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries m\-\_\-\-Arret\-Au\-Feu}\label{class_conducteur_a4a1bb1abf3005e7cee3d2380e4efffb2}
+
+\item 
+{\bf \-Point} {\bfseries m\-\_\-\-Coordonnees\-Actuelles}\label{class_conducteur_a3984f93a90377f2525b5d0440c8afad1}
+
+\item 
+{\bf \-Conducteur} $\ast$ {\bfseries m\-\_\-\-Conducteur}\label{class_conducteur_ab50d3c3bb86f0230f38e679029518ec3}
+
+\item 
+bool {\bfseries m\-\_\-\-Coordonnees\-Modifiees}\label{class_conducteur_af43c2c0d355f467d62e940e4c710922e}
+
+\item 
+qreal {\bfseries m\-\_\-\-Distance\-Jusqua\-Objectif}\label{class_conducteur_ac4d7ca3e5bd123959ff3a7fbf9110130}
+
+\item 
+const {\bf \-Plan\-::\-Intersection} $\ast$ {\bfseries m\-\_\-\-Derniere\-Intersection}\label{class_conducteur_a3fc82295e728ec25e9713dbd9bb9c8a9}
+
+\item 
+unsigned int {\bfseries m\-\_\-\-Id\-Voie\-Actuelle}\label{class_conducteur_a3e36e913783185f6a761c983d46a5761}
+
+\item 
+{\bf \-Point} {\bfseries m\-\_\-\-Objectif\-Actuel}\label{class_conducteur_ad26f4c83908e43483bfc12afb874dd48}
+
+\item 
+qreal {\bfseries m\-\_\-\-Objectif\-Direction}\label{class_conducteur_a0dfe4638d957265cdb3bb4e9be7bfa29}
+
+\item 
+qreal {\bfseries m\-\_\-\-Objectif\-Vitesse}\label{class_conducteur_a6d51323b3df1f8dec8a933b7190a20f5}
+
+\item 
+qreal {\bfseries m\-\_\-\-Objectif\-Vitesse\-Virage}\label{class_conducteur_a246f28b49df9d7a2b2052b6e072f7d34}
+
+\item 
+qreal {\bfseries m\-\_\-\-Position\-Volant\-Precedente}\label{class_conducteur_ad0525840878288969f2d9765b93ef600}
+
+\item 
+const {\bf \-Plan\-::\-Route} $\ast$ {\bfseries m\-\_\-\-Route\-Actuelle}\label{class_conducteur_ad3d9ef3dc18b3f9e0351fbb8ec9a7fa7}
+
+\item 
+{\bf \-Vehicule} $\ast$ {\bfseries m\-\_\-\-Vehicule}\label{class_conducteur_ac85d2516df57e6d44048aea136a3e6ae}
+
+\item 
+qreal {\bfseries m\-\_\-\-Vitesse\-Par\-Defaut}\label{class_conducteur_acab47502d2b0685a7ac9648de99f46ab}
+
+\item 
+{\bf \-Plan\-::\-Route\-::\-Voie} {\bfseries m\-\_\-\-Voie\-Actuelle}\label{class_conducteur_a1eb73db5128e82bfd916e61a2916a100}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+main/conducteur.\-h\item 
+main/conducteur.\-cpp\end{DoxyCompactItemize}

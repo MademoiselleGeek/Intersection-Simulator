@@ -1,0 +1,29 @@
+\section{\-Signalisation\-:\-:\-Connexion \-Class \-Reference}
+\label{class_signalisation_1_1_connexion}\index{\-Signalisation\-::\-Connexion@{\-Signalisation\-::\-Connexion}}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries \-Connexion} (const {\bf \-Plan\-::\-Route} $\ast$m\-\_\-\-Depart, const unsigned int m\-\_\-\-Voie\-Depart, const {\bf \-Plan\-::\-Route} $\ast$m\-\_\-\-Fin, const unsigned int m\-\_\-\-Voie\-Fin)\label{class_signalisation_1_1_connexion_a6c1fe411769dfa052a8f821732b8c28d}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const {\bf \-Plan\-::\-Route} $\ast$ {\bfseries m\-\_\-\-Depart}\label{class_signalisation_1_1_connexion_afa66fc17139d733eddb81900c1234ed4}
+
+\item 
+unsigned int {\bfseries m\-\_\-\-Voie\-Depart}\label{class_signalisation_1_1_connexion_a7530f89b46a7403bda767d94b6a70525}
+
+\item 
+const {\bf \-Plan\-::\-Route} $\ast$ {\bfseries m\-\_\-\-Fin}\label{class_signalisation_1_1_connexion_a06c134fad761b600f8ca38d01aeb8f88}
+
+\item 
+unsigned int {\bfseries m\-\_\-\-Voie\-Fin}\label{class_signalisation_1_1_connexion_a37ed2650ccdacab38041fd9b1d4cc43e}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+main/signalisation.\-h\item 
+main/signalisation.\-cpp\end{DoxyCompactItemize}

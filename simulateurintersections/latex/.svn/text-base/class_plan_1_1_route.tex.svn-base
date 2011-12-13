@@ -1,0 +1,155 @@
+\section{\-Plan\-:\-:\-Route \-Class \-Reference}
+\label{class_plan_1_1_route}\index{\-Plan\-::\-Route@{\-Plan\-::\-Route}}
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bf \-Voie}
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef \-Q\-List$<$ {\bf \-Voie} $>$ {\bfseries \-Voie\-List}\label{class_plan_1_1_route_a736890210b8da4786c7b1cb994872cbc}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-Route} ()
+\item 
+{\bf \-Route} (const \-Q\-String \&nom, {\bf \-Intersection} $\ast$premiere, {\bf \-Intersection} $\ast$deuxieme)
+\item 
+const \-Q\-String \& {\bfseries nom} () const \label{class_plan_1_1_route_a2e96d05151049f84deae81dbfcc1e6de}
+
+\item 
+qreal {\bfseries longueur} () const \label{class_plan_1_1_route_afe21b8041f801d0cf95001f065a7cda2}
+
+\item 
+unsigned int {\bfseries largeur} () const \label{class_plan_1_1_route_ade442a3fdf83b79a906e10b704e902dd}
+
+\item 
+const {\bf \-Utils\-::\-Point} \& {\bfseries premier} () const \label{class_plan_1_1_route_a05b93ff6af8a135f039a983e252c218d}
+
+\item 
+{\bf \-Utils\-::\-Point} \& {\bfseries premier} ()\label{class_plan_1_1_route_a9bc2146c3ebf659c5e92fb07d568b19b}
+
+\item 
+const {\bf \-Utils\-::\-Point} \& {\bfseries deuxieme} () const \label{class_plan_1_1_route_a45a4914a0baaa3d7d5f601db1ea250de}
+
+\item 
+{\bf \-Utils\-::\-Point} \& {\bfseries deuxieme} ()\label{class_plan_1_1_route_a781a7d1c9b2ee816a42956f95e77f436}
+
+\item 
+const {\bf \-Intersection} $\ast$ {\bfseries get\-Premiere\-Intersection} () const \label{class_plan_1_1_route_a6b4209f139a100c2423a3c5b02996c8b}
+
+\item 
+{\bf \-Intersection} $\ast$ {\bfseries get\-Premiere\-Intersection} ()\label{class_plan_1_1_route_ab1f1c26e99479cec81aefcda8253e270}
+
+\item 
+const {\bf \-Intersection} $\ast$ {\bfseries get\-Deuxieme\-Intersection} () const \label{class_plan_1_1_route_ae0dfbbc3bdf2dd7a4b2cb95cb291d711}
+
+\item 
+{\bf \-Intersection} $\ast$ {\bfseries get\-Deuxieme\-Intersection} ()\label{class_plan_1_1_route_ad7e0b54f34d86a8b7e8d4729ed31e97a}
+
+\item 
+\-Voie\-::\-Direction {\bfseries get\-Direction} (const {\bf \-Intersection} $\ast$prochaine\-Intersection) const \label{class_plan_1_1_route_ad7a3988dc83d5c6f69ae604f5e196838}
+
+\item 
+const {\bf \-Voie} \& {\bf voie} (\-Voie\-::\-Direction d, int position\-Voie, bool \&resultat\-Ok) const 
+\item 
+unsigned int {\bfseries nb\-Voies} (\-Voie\-::\-Direction d) const \label{class_plan_1_1_route_a6eb0edc12e29b0258c70ae417e4b0395}
+
+\item 
+unsigned int {\bfseries nb\-Voies} () const \label{class_plan_1_1_route_a94c5af7e2d7cd268e8679ae84fbb0d8c}
+
+\item 
+void {\bfseries ajouter\-Voie} (int position\-Voie, \-Voie\-::\-Direction dir)\label{class_plan_1_1_route_a126f50d6348c04aacc81bcb8e690177f}
+
+\item 
+void {\bfseries ajouter\-Voie} (const {\bf \-Voie} \&v)\label{class_plan_1_1_route_a9d4e22dbbaa41203d7f514477170efab}
+
+\item 
+void {\bfseries recalculer\-Segments\-Voie} ()\label{class_plan_1_1_route_afa941d941b9ec7aca855f98b34027312}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Q\-String {\bfseries m\-\_\-\-Nom}\label{class_plan_1_1_route_a4263857a04661812f1786e091f5ccf43}
+
+\item 
+\-Q\-List$<$ {\bf \-Voie} $>$ {\bfseries m\-\_\-\-Voies\-Prem\-Vers\-Deux}\label{class_plan_1_1_route_a4509b86178aae70ab88e8d0f12d2dabe}
+
+\item 
+\-Q\-List$<$ {\bf \-Voie} $>$ {\bfseries m\-\_\-\-Voies\-Deux\-Vers\-Prem}\label{class_plan_1_1_route_a509229833420a7cfe01460786abcb549}
+
+\item 
+{\bf \-Utils\-::\-Point} {\bfseries m\-\_\-\-Premier}\label{class_plan_1_1_route_a80ebfc7f019ed3b0da5a405c4ba7f388}
+
+\item 
+{\bf \-Utils\-::\-Point} {\bfseries m\-\_\-\-Deuxieme}\label{class_plan_1_1_route_ae8ba65c33598c4b898ee880ca5a208f6}
+
+\item 
+{\bf \-Intersection} $\ast$ {\bfseries m\-\_\-\-Premiere\-Intersection}\label{class_plan_1_1_route_a42d1ab9ca9cd0c18c6aecc3b87087fe4}
+
+\item 
+{\bf \-Intersection} $\ast$ {\bfseries m\-\_\-\-Deuxieme\-Intersection}\label{class_plan_1_1_route_ad8aa971cddc66b3f8925f1bfac6ef819}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\index{\-Plan\-::\-Route@{\-Plan\-::\-Route}!\-Route@{\-Route}}
+\index{\-Route@{\-Route}!Plan::Route@{\-Plan\-::\-Route}}
+\subsubsection[{\-Route}]{\setlength{\rightskip}{0pt plus 5cm}\-Plan\-::\-Route\-::\-Route (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_plan_1_1_route_a272211e58b2c00d8c47f76a2541a9b32}
+\-Constructeur \index{\-Plan\-::\-Route@{\-Plan\-::\-Route}!\-Route@{\-Route}}
+\index{\-Route@{\-Route}!Plan::Route@{\-Plan\-::\-Route}}
+\subsubsection[{\-Route}]{\setlength{\rightskip}{0pt plus 5cm}\-Plan\-::\-Route\-::\-Route (
+\begin{DoxyParamCaption}
+\item[{const \-Q\-String \&}]{nom\-Route, }
+\item[{{\bf \-Plan\-::\-Intersection} $\ast$}]{premiere, }
+\item[{{\bf \-Plan\-::\-Intersection} $\ast$}]{deuxieme}
+\end{DoxyParamCaption}
+)}\label{class_plan_1_1_route_a40522c65f1a5370540d515a89108e571}
+\-Constructeur 
+\begin{DoxyParams}{\-Parameters}
+{\em nom\-Rue} & \-Nom de la \doxyref{\-Route}{p.}{class_plan_1_1_route} \\
+\hline
+{\em premiere} & \doxyref{\-Intersection}{p.}{class_plan_1_1_intersection} \-Départ \\
+\hline
+{\em deuxieme} & \doxyref{\-Intersection}{p.}{class_plan_1_1_intersection} \-Fin \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Plan\-::\-Route@{\-Plan\-::\-Route}!voie@{voie}}
+\index{voie@{voie}!Plan::Route@{\-Plan\-::\-Route}}
+\subsubsection[{voie}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf \-Plan\-::\-Route\-::\-Voie} \& \-Plan\-::\-Route\-::voie (
+\begin{DoxyParamCaption}
+\item[{\-Voie\-::\-Direction}]{d, }
+\item[{int}]{position\-Voie, }
+\item[{bool \&}]{resultat\-Ok}
+\end{DoxyParamCaption}
+) const}\label{class_plan_1_1_route_a4b8bff3a0546485e8ff21908da83e097}
+
+\begin{DoxyParams}{\-Parameters}
+{\em d} & \-Direction de la voie voulue \\
+\hline
+{\em position\-Voie} & \-Position de la voie voulue \\
+\hline
+{\em resultat\-Ok} & \-True si la position voie voulue existe, false sinon \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+voie dans la direction d à la position indiquée ou la première voie dans la direction d si la position indiquée ne correspond pas à une voie 
+\end{DoxyReturn}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+main/plan.\-h\item 
+main/plan.\-cpp\end{DoxyCompactItemize}

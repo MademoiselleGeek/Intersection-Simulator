@@ -1,0 +1,161 @@
+\section{\-Simulation\-I\-H\-M \-Class \-Reference}
+\label{class_simulation_i_h_m}\index{\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-Simulation\-I\-H\-M} (\-Q\-Widget $\ast$parent=0)
+\item 
+void {\bf rafraichir\-Images} ()
+\item 
+void {\bf redessiner\-Plan} ()
+\item 
+void {\bf effacer\-Images} (const bool clear\-Scene=false)
+\item 
+void {\bf zoom} (bool zoom\-In)
+\item 
+void {\bf afficher\-Velocite} (bool afficher=true)
+\item 
+void {\bf afficher\-Frottements} (bool afficher=true)
+\item 
+void {\bf afficher\-Force\-Moteur} (bool afficher=true)
+\item 
+void {\bf centrer} ()
+\item 
+void {\bf ajouter\-Marges} (const float marge=100.\-0f)
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void {\bf wheel\-Event} (\-Q\-Wheel\-Event $\ast$event)
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Q\-Graphics\-Scene {\bfseries m\-\_\-\-Scene}\label{class_simulation_i_h_m_adc61358fbb3fdf65345cbbf37fc1ed8b}
+
+\item 
+\-Q\-Map$<$ \-Q\-String, {\bf \-Vehicule\-I\-H\-M} $\ast$ $>$ {\bfseries m\-\_\-\-I\-H\-Ms\-Vehicule}\label{class_simulation_i_h_m_abedeb817323b5e28697093768f15fda8}
+
+\item 
+\-Q\-Map$<$ \-Q\-String, {\bf \-Signalisation\-I\-H\-M} $\ast$ $>$ {\bfseries m\-\_\-\-I\-H\-Ms\-Signalisation}\label{class_simulation_i_h_m_a433a09b070707184c530f15852aafbde}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\index{\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}!\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}}
+\index{\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}!SimulationIHM@{\-Simulation\-I\-H\-M}}
+\subsubsection[{\-Simulation\-I\-H\-M}]{\setlength{\rightskip}{0pt plus 5cm}\-Simulation\-I\-H\-M\-::\-Simulation\-I\-H\-M (
+\begin{DoxyParamCaption}
+\item[{\-Q\-Widget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}\label{class_simulation_i_h_m_a4505a025a7a9da7d9a34a6d45d9792f8}
+\-Constructeur, mettre le zoom au niveau 1 et afficher la scène 
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}!afficher\-Force\-Moteur@{afficher\-Force\-Moteur}}
+\index{afficher\-Force\-Moteur@{afficher\-Force\-Moteur}!SimulationIHM@{\-Simulation\-I\-H\-M}}
+\subsubsection[{afficher\-Force\-Moteur}]{\setlength{\rightskip}{0pt plus 5cm}void \-Simulation\-I\-H\-M\-::afficher\-Force\-Moteur (
+\begin{DoxyParamCaption}
+\item[{bool}]{afficher = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}\label{class_simulation_i_h_m_adf9e9a3f35a661557148f7d5f76917d1}
+\-Afficher les vecteurs force moteur pour tous les véhicules de de la simulation 
+\begin{DoxyParams}{\-Parameters}
+{\em afficher} & \-Afficher ou non les vecteurs \\
+\hline
+\end{DoxyParams}
+\index{\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}!afficher\-Frottements@{afficher\-Frottements}}
+\index{afficher\-Frottements@{afficher\-Frottements}!SimulationIHM@{\-Simulation\-I\-H\-M}}
+\subsubsection[{afficher\-Frottements}]{\setlength{\rightskip}{0pt plus 5cm}void \-Simulation\-I\-H\-M\-::afficher\-Frottements (
+\begin{DoxyParamCaption}
+\item[{bool}]{afficher = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}\label{class_simulation_i_h_m_ac8189b97583fb1dbb3e20ce69a93988d}
+\-Afficher les vecteurs frottements pour tous les véhicules de de la simulation 
+\begin{DoxyParams}{\-Parameters}
+{\em afficher} & \-Afficher ou non les vecteurs \\
+\hline
+\end{DoxyParams}
+\index{\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}!afficher\-Velocite@{afficher\-Velocite}}
+\index{afficher\-Velocite@{afficher\-Velocite}!SimulationIHM@{\-Simulation\-I\-H\-M}}
+\subsubsection[{afficher\-Velocite}]{\setlength{\rightskip}{0pt plus 5cm}void \-Simulation\-I\-H\-M\-::afficher\-Velocite (
+\begin{DoxyParamCaption}
+\item[{bool}]{afficher = {\ttfamily true}}
+\end{DoxyParamCaption}
+)}\label{class_simulation_i_h_m_aa4b1c815ca1f4040880f2ebf9d5aa368}
+\-Afficher les vecteurs vélocité pour tous les véhicules de de la simulation 
+\begin{DoxyParams}{\-Parameters}
+{\em afficher} & afficher ou non les vecteurs \\
+\hline
+\end{DoxyParams}
+\index{\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}!ajouter\-Marges@{ajouter\-Marges}}
+\index{ajouter\-Marges@{ajouter\-Marges}!SimulationIHM@{\-Simulation\-I\-H\-M}}
+\subsubsection[{ajouter\-Marges}]{\setlength{\rightskip}{0pt plus 5cm}void \-Simulation\-I\-H\-M\-::ajouter\-Marges (
+\begin{DoxyParamCaption}
+\item[{const float}]{marge = {\ttfamily 100.0f}}
+\end{DoxyParamCaption}
+)}\label{class_simulation_i_h_m_ae40716dfd837033160760cdbbde64428}
+\-Ajouter une marge sur les quatre côtés de l'\-I\-H\-M \doxyref{\-Simulation}{p.}{class_simulation} 
+\begin{DoxyParams}{\-Parameters}
+{\em marge} & nombre de pixels de marge \\
+\hline
+\end{DoxyParams}
+\index{\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}!centrer@{centrer}}
+\index{centrer@{centrer}!SimulationIHM@{\-Simulation\-I\-H\-M}}
+\subsubsection[{centrer}]{\setlength{\rightskip}{0pt plus 5cm}void \-Simulation\-I\-H\-M\-::centrer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_simulation_i_h_m_a2bd568a8fe0862458328a7cf329e2081}
+\-Centrer la fenêtre sur le milieu de la simulation et mettre au niveau moyen de zoom \index{\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}!effacer\-Images@{effacer\-Images}}
+\index{effacer\-Images@{effacer\-Images}!SimulationIHM@{\-Simulation\-I\-H\-M}}
+\subsubsection[{effacer\-Images}]{\setlength{\rightskip}{0pt plus 5cm}void \-Simulation\-I\-H\-M\-::effacer\-Images (
+\begin{DoxyParamCaption}
+\item[{const bool}]{effacer\-Image = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}\label{class_simulation_i_h_m_af9523b7e274a9afe8042ad0fcff6c97f}
+\-Supprimer toutes les images de signalisation et de véhicule de la simulation 
+\begin{DoxyParams}{\-Parameters}
+{\em effacer\-Image} & \-Effacer tous les éléments de la scène \\
+\hline
+\end{DoxyParams}
+\index{\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}!rafraichir\-Images@{rafraichir\-Images}}
+\index{rafraichir\-Images@{rafraichir\-Images}!SimulationIHM@{\-Simulation\-I\-H\-M}}
+\subsubsection[{rafraichir\-Images}]{\setlength{\rightskip}{0pt plus 5cm}void \-Simulation\-I\-H\-M\-::rafraichir\-Images (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_simulation_i_h_m_a096a16db9abfdf3b9693d3c0278ad005}
+\-Rafraichit le contenu de toutes les images de véhicules et de signalisations de la simulation \index{\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}!redessiner\-Plan@{redessiner\-Plan}}
+\index{redessiner\-Plan@{redessiner\-Plan}!SimulationIHM@{\-Simulation\-I\-H\-M}}
+\subsubsection[{redessiner\-Plan}]{\setlength{\rightskip}{0pt plus 5cm}void \-Simulation\-I\-H\-M\-::redessiner\-Plan (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_simulation_i_h_m_a8c84ee29255c4293ab620d40f89a6c69}
+\-Redessine toutes les routes et intersections de la simulation \index{\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}!wheel\-Event@{wheel\-Event}}
+\index{wheel\-Event@{wheel\-Event}!SimulationIHM@{\-Simulation\-I\-H\-M}}
+\subsubsection[{wheel\-Event}]{\setlength{\rightskip}{0pt plus 5cm}void \-Simulation\-I\-H\-M\-::wheel\-Event (
+\begin{DoxyParamCaption}
+\item[{\-Q\-Wheel\-Event $\ast$}]{wheel}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  [protected, virtual]}}\label{class_simulation_i_h_m_aad26b72367abd8347fda8bbaaa377dff}
+\-Gérer les \char`\"{}wheel\-Event\char`\"{} sur la simulation, en particulier limiter la vitesse à laquelle l'utilisateur peut se déplacer sur la fenêtre \index{\-Simulation\-I\-H\-M@{\-Simulation\-I\-H\-M}!zoom@{zoom}}
+\index{zoom@{zoom}!SimulationIHM@{\-Simulation\-I\-H\-M}}
+\subsubsection[{zoom}]{\setlength{\rightskip}{0pt plus 5cm}void \-Simulation\-I\-H\-M\-::zoom (
+\begin{DoxyParamCaption}
+\item[{bool}]{zoom\-Avant}
+\end{DoxyParamCaption}
+)}\label{class_simulation_i_h_m_a32dcbeb059bef915f800fe6cc6a245ff}
+\-Augmenter ou diminuer le zoom sur la fenêtre simulation par un facteur de 1.\-2 
+\begin{DoxyParams}{\-Parameters}
+{\em zoom\-Avant} & zoom avant ou arrière \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+ihm/simulationihm.\-h\item 
+ihm/simulationihm.\-cpp\end{DoxyCompactItemize}

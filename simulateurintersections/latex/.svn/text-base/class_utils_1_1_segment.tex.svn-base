@@ -1,0 +1,56 @@
+\section{\-Utils\-:\-:\-Segment \-Class \-Reference}
+\label{class_utils_1_1_segment}\index{\-Utils\-::\-Segment@{\-Utils\-::\-Segment}}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries \-Segment} (const {\bf \-Point} \&depart, const {\bf \-Point} \&fin)\label{class_utils_1_1_segment_a50325dce677d2310b64d2156cbad23ce}
+
+\item 
+\-Q\-Line\-F {\bfseries to\-Q\-Line\-F} () const \label{class_utils_1_1_segment_a2448ce33f61341e58eb2c8ee0c258278}
+
+\item 
+const {\bf \-Point} \& {\bfseries depart} () const \label{class_utils_1_1_segment_aaeedaa44ebda28d25ed675fd332b2a94}
+
+\item 
+{\bf \-Point} \& {\bfseries depart} ()\label{class_utils_1_1_segment_aa5e6e18ff6b921917c5b87c9c859cd85}
+
+\item 
+const {\bf \-Point} \& {\bfseries fin} () const \label{class_utils_1_1_segment_a9cd35e525edd1c331bc102f7c91726b6}
+
+\item 
+{\bf \-Point} \& {\bfseries fin} ()\label{class_utils_1_1_segment_a71c421902a0693c3c8d21c89f2c29a32}
+
+\item 
+{\bf \-Segment} {\bfseries vers\-Perpendiculaire\-Depuis\-Depart} (qreal decalage, qreal norme) const \label{class_utils_1_1_segment_ae56bd50b3c3a6798b3e0d811a8db2c5a}
+
+\item 
+{\bf \-Segment} {\bfseries vers\-Perpendiculaire\-Depuis\-Fin} (qreal decalage, qreal norme) const \label{class_utils_1_1_segment_ae7a547894fb8bc482a97e76ff1c67c9b}
+
+\item 
+{\bf \-Segment} {\bfseries vers\-Decalage} (qreal decalage) const \label{class_utils_1_1_segment_a7cbf9595c0b6e2420c70d33034f8cdd9}
+
+\item 
+virtual {\bf \-Point} {\bfseries point\-Le\-Plus\-Proche} (const {\bf \-Point} \&p) const \label{class_utils_1_1_segment_adb12dd6e0c158e06d4c2db4c715d650f}
+
+\item 
+virtual bool {\bfseries est\-Sur} (const {\bf \-Point} \&p) const \label{class_utils_1_1_segment_a2f09e82cb3475d8cdd26f5e5d8922fbf}
+
+\item 
+virtual bool {\bfseries operator==} (const {\bf \-Segment} \&s) const \label{class_utils_1_1_segment_a647d0c3c55afacf876a854c627bcbcf4}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-Point} {\bfseries m\-\_\-\-Depart}\label{class_utils_1_1_segment_ae112ee02a68a4c9b8446cb42a09bd693}
+
+\item 
+{\bf \-Point} {\bfseries m\-\_\-\-Fin}\label{class_utils_1_1_segment_aa508b068c77141b27c2f2b383b052923}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+utils/segment.\-h\item 
+utils/segment.\-cpp\end{DoxyCompactItemize}

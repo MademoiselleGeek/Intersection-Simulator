@@ -1,0 +1,126 @@
+\section{\-Route\-I\-H\-M \-Class \-Reference}
+\label{class_route_i_h_m}\index{\-Route\-I\-H\-M@{\-Route\-I\-H\-M}}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-Route\-I\-H\-M} (\-Q\-Graphics\-Item $\ast$parent=0)
+\item 
+void {\bf set\-Premier} (const {\bf \-Utils\-::\-Point} \&premier)
+\item 
+void {\bf set\-Deuxieme} (const {\bf \-Utils\-::\-Point} \&deuxieme)
+\item 
+void {\bf set\-Voies\-Prem\-Vers\-Deux} (unsigned int nb)
+\item 
+void {\bf set\-Voies\-Deux\-Vers\-Prem} (unsigned int nb)
+\item 
+void {\bf set\-Largeur\-Route} (unsigned int largeur)
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bf dessiner\-Route} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-Utils\-::\-Point} {\bfseries m\-\_\-\-Premier}\label{class_route_i_h_m_add16a9552a9e2dc12bf92196cb946e02}
+
+\item 
+{\bf \-Utils\-::\-Point} {\bfseries m\-\_\-\-Deuxieme}\label{class_route_i_h_m_abf694f57e0c2f08d6c3afc62474b2663}
+
+\item 
+unsigned int {\bfseries m\-\_\-\-Voies\-Prem\-Vers\-Deux}\label{class_route_i_h_m_a1312ab879beea1727f62769dc54b3809}
+
+\item 
+unsigned int {\bfseries m\-\_\-\-Voies\-Deux\-Vers\-Prem}\label{class_route_i_h_m_a17492a2e6c4eef72472028557d780334}
+
+\item 
+int {\bfseries m\-\_\-\-Largeur\-Route}\label{class_route_i_h_m_a6cfa0882ea58c02db0c0204ea522d6b5}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\index{\-Route\-I\-H\-M@{\-Route\-I\-H\-M}!\-Route\-I\-H\-M@{\-Route\-I\-H\-M}}
+\index{\-Route\-I\-H\-M@{\-Route\-I\-H\-M}!RouteIHM@{\-Route\-I\-H\-M}}
+\subsubsection[{\-Route\-I\-H\-M}]{\setlength{\rightskip}{0pt plus 5cm}\-Route\-I\-H\-M\-::\-Route\-I\-H\-M (
+\begin{DoxyParamCaption}
+\item[{\-Q\-Graphics\-Item $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}\label{class_route_i_h_m_a1971cc8050eae468313738e6f6853e34}
+\-Constructeur, couleur noire pour le fond de la route 
+
+\subsection{\-Member \-Function \-Documentation}
+\index{\-Route\-I\-H\-M@{\-Route\-I\-H\-M}!dessiner\-Route@{dessiner\-Route}}
+\index{dessiner\-Route@{dessiner\-Route}!RouteIHM@{\-Route\-I\-H\-M}}
+\subsubsection[{dessiner\-Route}]{\setlength{\rightskip}{0pt plus 5cm}void \-Route\-I\-H\-M\-::dessiner\-Route (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  [protected]}}\label{class_route_i_h_m_af0e0d1ac9dc4bcbbd3bae1af389608c7}
+\-Dessin des différents éléments de la route (bordures, lignes de sérpation entre les voies \index{\-Route\-I\-H\-M@{\-Route\-I\-H\-M}!set\-Deuxieme@{set\-Deuxieme}}
+\index{set\-Deuxieme@{set\-Deuxieme}!RouteIHM@{\-Route\-I\-H\-M}}
+\subsubsection[{set\-Deuxieme}]{\setlength{\rightskip}{0pt plus 5cm}void \-Route\-I\-H\-M\-::set\-Deuxieme (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Utils\-::\-Point} \&}]{deuxieme}
+\end{DoxyParamCaption}
+)}\label{class_route_i_h_m_a862f878ce673dff9cfaee2f1f3dc9902}
+\-Modification du deuxième point de la route, puis la route est redessinée 
+\begin{DoxyParams}{\-Parameters}
+{\em deuxieme} & \-Deuxieme point de la route \\
+\hline
+\end{DoxyParams}
+\index{\-Route\-I\-H\-M@{\-Route\-I\-H\-M}!set\-Largeur\-Route@{set\-Largeur\-Route}}
+\index{set\-Largeur\-Route@{set\-Largeur\-Route}!RouteIHM@{\-Route\-I\-H\-M}}
+\subsubsection[{set\-Largeur\-Route}]{\setlength{\rightskip}{0pt plus 5cm}void \-Route\-I\-H\-M\-::set\-Largeur\-Route (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{largeur}
+\end{DoxyParamCaption}
+)}\label{class_route_i_h_m_add1ff2ea78938cacab5580dd396c64da}
+\-Modification de la largeur de la route, puis la route est redessinée 
+\begin{DoxyParams}{\-Parameters}
+{\em largeur} & \-Largeur de la route \\
+\hline
+\end{DoxyParams}
+\index{\-Route\-I\-H\-M@{\-Route\-I\-H\-M}!set\-Premier@{set\-Premier}}
+\index{set\-Premier@{set\-Premier}!RouteIHM@{\-Route\-I\-H\-M}}
+\subsubsection[{set\-Premier}]{\setlength{\rightskip}{0pt plus 5cm}void \-Route\-I\-H\-M\-::set\-Premier (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Utils\-::\-Point} \&}]{premier}
+\end{DoxyParamCaption}
+)}\label{class_route_i_h_m_a42068ec1046bffb322170c7416e320c6}
+\-Modification du premier point de la route, puis la route est redessinée 
+\begin{DoxyParams}{\-Parameters}
+{\em premier} & \-Premier point de la route \\
+\hline
+\end{DoxyParams}
+\index{\-Route\-I\-H\-M@{\-Route\-I\-H\-M}!set\-Voies\-Deux\-Vers\-Prem@{set\-Voies\-Deux\-Vers\-Prem}}
+\index{set\-Voies\-Deux\-Vers\-Prem@{set\-Voies\-Deux\-Vers\-Prem}!RouteIHM@{\-Route\-I\-H\-M}}
+\subsubsection[{set\-Voies\-Deux\-Vers\-Prem}]{\setlength{\rightskip}{0pt plus 5cm}void \-Route\-I\-H\-M\-::set\-Voies\-Deux\-Vers\-Prem (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{nb}
+\end{DoxyParamCaption}
+)}\label{class_route_i_h_m_a63a2ea4341598120726a8efdff951470}
+\-Modification du nombre de voies du deuxième point vers le premier, puis la route est redessinée 
+\begin{DoxyParams}{\-Parameters}
+{\em nb} & \-Nombre de voies du deuxième point vers le premier \\
+\hline
+\end{DoxyParams}
+\index{\-Route\-I\-H\-M@{\-Route\-I\-H\-M}!set\-Voies\-Prem\-Vers\-Deux@{set\-Voies\-Prem\-Vers\-Deux}}
+\index{set\-Voies\-Prem\-Vers\-Deux@{set\-Voies\-Prem\-Vers\-Deux}!RouteIHM@{\-Route\-I\-H\-M}}
+\subsubsection[{set\-Voies\-Prem\-Vers\-Deux}]{\setlength{\rightskip}{0pt plus 5cm}void \-Route\-I\-H\-M\-::set\-Voies\-Prem\-Vers\-Deux (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{nb}
+\end{DoxyParamCaption}
+)}\label{class_route_i_h_m_a1b484a5301e8ea982cb1212931751e74}
+\-Modification du nombre de voies du premier point vers le deuxième, puis la route est redessinée 
+\begin{DoxyParams}{\-Parameters}
+{\em nb} & \-Nombre de voies du premier point vers le deuxième \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+ihm/routeihm.\-h\item 
+ihm/routeihm.\-cpp\end{DoxyCompactItemize}

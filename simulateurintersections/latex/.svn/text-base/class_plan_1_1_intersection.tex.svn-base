@@ -1,0 +1,35 @@
+\section{\-Plan\-:\-:\-Intersection \-Class \-Reference}
+\label{class_plan_1_1_intersection}\index{\-Plan\-::\-Intersection@{\-Plan\-::\-Intersection}}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries \-Intersection} (const \-Q\-String \&nom, const {\bf \-Utils\-::\-Point} \&emplacement)\label{class_plan_1_1_intersection_a4be86b5884ed6da039fe77da2f68740c}
+
+\item 
+const \-Q\-String \& {\bfseries nom} () const \label{class_plan_1_1_intersection_ad902d9bd660255ed642e90252ebd5f2b}
+
+\item 
+const {\bf \-Utils\-::\-Point} \& {\bfseries emplacement} () const \label{class_plan_1_1_intersection_aa58e4efd96288d4ad08f0d8703c598ab}
+
+\item 
+void {\bfseries ajouter\-Voisine} ({\bf \-Intersection} $\ast$voisine)\label{class_plan_1_1_intersection_a442395cd461c4f1320813288dc4f336e}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Protected \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Q\-String {\bfseries m\-\_\-\-Nom}\label{class_plan_1_1_intersection_a686d413078152d9ced6666ba8f4b82b1}
+
+\item 
+\-Q\-List$<$ {\bf \-Intersection} $\ast$ $>$ {\bfseries m\-\_\-\-Voisines}\label{class_plan_1_1_intersection_a4d3c039a0762780092c6a4ae18a0c65b}
+
+\item 
+{\bf \-Utils\-::\-Point} {\bfseries m\-\_\-\-Emplacement}\label{class_plan_1_1_intersection_a9866e872363f53adbffbc5e55226ae9c}
+
+\end{DoxyCompactItemize}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+main/plan.\-h\item 
+main/plan.\-cpp\end{DoxyCompactItemize}
